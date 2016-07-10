@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.views.shorcouts import View
+from django.views.generic import View
 from .tulio import send_message
 
 class Home(View):
